@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Stock Pick</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .heading {
+            font-family: Georgia, serif;
+            font-size: 38px;
+            font-style: italic;
+            text-align: center;
+            height: 75px;
+        }
+
+        .symbol,
+        .contact {
+            background-color: #00b050;
+            color: red;
+            text-align: left;
+        }
+
+        .images {
+            background-color: lightblue;
+            text-align: center;
+        }
+
+        .name {
+            color: red;
+            font-weight: bold;
+        }
+
+        .stock-image {
+            width: 200px;
+            height: 125px;
+            object-fit: contain;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        a {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th colspan="4" class="heading"> GROUP 3(a)</th>
+        </tr>
+        <tr>
+            <th> Name</th>
+            <th>REGNO</th>
+        </tr>
+        <tr>
+            <ol>
+
+
+        <tr>
+            <td>
+                <li> Audrey Chemutai</li>
+            </td>
+            <td> IN17/00064/25</td>
+        </tr>
+
+        <tr>
+            <td>
+                <li> Stellar Deche</li>
+            </td>
+            <td> IN17/00007/25</td>
+        </tr>
+
+        <tr>
+            <td>
+                <li> Mercy Chepkoech Khoskei</li>
+            </td>
+            <td> IN17/00065/25</td>
+        </tr>
+
+        <tr>
+            <td>
+                <li> Emmanuel Kipchirchir Kemboi</li>
+            </td>
+            <td> IN17/00082/25</td>
+        </tr>
+        <tr>
+            <td>
+                <li> Immanuel Kipyegon Tarei</li>
+            </td>
+            <td> IN17/00087/25</td>
+            </ol>
+        </tr>
+        <br><br><br><br>
+    </table>
+
+    <table>
+        <tr>
+            <th colspan="4" class="heading">My tech stock pick</th>
+        </tr>
+
+        <tr>
+            <td colspan="4" style="height:35px;"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td class="symbol">Symbol</td>
+            <td class="images" rowspan="2">Images</td>
+            <td class="contact">Contact</td>
+        </tr>
+
+        <tr>
+            <td class="name">Name</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Microsofti</td>
+            <td>MSFT</td>
+            <td>
+                <img src="images/laptop.png" alt="HP laptop" class="stock-image">
+            </td>
+            <td>
+                <ul>
+                    <li>Email: microsofti@mc.se</li>
+                    <li>©2013 <b>Microsoft</b> Corporation</li>
+                </ul>
+
+                <ol type="i">
+                    <li>Email: microsofti@mc.se</li>
+                    <li>©2026 <b>Microsoft</b> Corporation</li>
+                </ol>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Cisco Systems</td>
+            <td>CSCO</td>
+            <td rowspan="2">
+                <img src="images/cisco.png" alt="Cisco network switch" class="stock-image">
+            </td>
+            <td><b>Switch</b></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <a href="https://www.uk.hardware.info">
+                    www.uk.hardware.info
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="4" class="footer">©BIT 202</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 900px;
+            margin: 20px auto;
+            border: 2px solid #777;
+            border-top: 2px solid #0783d4;
+            border-radius: 0 0 25px 25px;
+            overflow: hidden;
+            padding: 35px 20px 0;
+        }
+
+        .step {
+            text-align: center;
+            color: #0878c9;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        fieldset {
+            border: 2px solid #c2ddf5;
+            border-radius: 5px;
+            margin: 0 auto 12px;
+            width: 85%;
+            padding: 15px;
+        }
+
+        legend {
+            text-align: center;
+            color: #222;
+            font-weight: bold;
+            padding: 0 8px;
+        }
+
+        .form-row {
+            display: flex;
+            align-items: center;
+            margin: 6px 0;
+            min-height: 32px;
+        }
+
+        .form-row label {
+            width: 35%;
+            font-size: 14px;
+        }
+
+        .form-row input,
+        .form-row select {
+            width: 200px;
+            height: 32px;
+            border: 2px solid #c2ddf5;
+            border-radius: 4px;
+            padding: 5px;
+            font-size: 14px;
+        }
+
+        .gender {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .gender input {
+            width: auto;
+            height: auto;
+        }
+
+        .gender label {
+            width: auto;
+        }
+
+        .security {
+            width: 60%;
+        }
+
+        .security .form-row label {
+            width: 40%;
+        }
+
+        .buttons {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        button {
+            background: #159bd4;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 18px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 0 3px;
+        }
+
+        button:hover {
+            background: #0878b0;
+        }
+
+        footer {
+            background: #0878b8;
+            color: white;
+            text-align: center;
+            padding: 7px;
+            margin: 0 -20px;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                width: 100%;
+                padding: 20px 10px 0;
+            }
+
+            fieldset {
+                width: 100%;
+            }
+
+            .form-row {
+                flex-wrap: wrap;
+                gap: 5px;
+            }
+
+            .form-row label {
+                width: 100%;
+            }
+
+            .form-row input,
+            .form-row select {
+                width: 100%;
+            }
+
+            .security {
+                width: 100%;
+            }
+
+            .security .form-row label {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="step">Step 1 of 5</div>
+
+        <form>
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <div class="form-row">
+                    <label for="surname">Sur Name</label>
+                    <input type="text" id="surname" name="surname">
+                </div>
+
+                <div class="form-row">
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" name="firstname">
+                </div>
+
+                <div class="form-row">
+                    <label for="othernames">Other Names</label>
+                    <input type="text" id="othernames" name="othernames">
+                </div>
+
+                <div class="form-row">
+                    <label>Gender</label>
+                    <div class="gender">
+                        <input type="radio" id="male" name="gender" value="Male">
+                        <label for="male">Male</label>
+
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label for="marital">Marital Status</label>
+                    <select id="marital" name="marital">
+                        <option value="">Select - Status</option>
+                        <option>Single</option>
+                        <option>Married</option>
+                        <option>Divorced</option>
+                        <option>Widowed</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob">
+                </div>
+
+                <div class="form-row">
+                    <label for="birthplace">Place of Birth</label>
+                    <input type="text" id="birthplace" name="birthplace">
+                </div>
+
+                <div class="form-row">
+                    <label for="mother">Mothers Name</label>
+                    <input type="text" id="mother" name="mother">
+                </div>
+
+                <div class="form-row">
+                    <label for="father">Fathers Name</label>
+                    <input type="text" id="father" name="father">
+                </div>
+
+                <div class="form-row">
+                    <label for="dependants">Number of Dependants</label>
+                    <select id="dependants" name="dependants">
+                        <option value="">Select - No of Dependants</option>
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5 or more</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="education">Level of Education</label>
+                    <input type="text" id="education" name="education">
+                </div>
+
+            </fieldset>
+
+            <fieldset class="security">
+                <legend>Security Information</legend>
+
+                <div class="form-row">
+                    <label for="username">UserName</label>
+                    <input type="text" id="username" name="username">
+                </div>
+
+                <div class="form-row">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+
+                <div class="form-row">
+                    <label for="confirm">Re-type Password</label>
+                    <input type="password" id="confirm" name="confirm">
+                </div>
+
+                <div class="form-row">
+                    <label for="question">Security Question</label>
+                    <select id="question" name="question">
+                        <option value="">Select - Question</option>
+                        <option>What is your mother's maiden name?</option>
+                        <option>What is your favourite colour?</option>
+                        <option>What is your birthplace?</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="answer">Answer</label>
+                    <input type="text" id="answer" name="answer">
+                </div>
+
+            </fieldset>
+
+            <div class="buttons">
+                <button type="button" onclick="history.back()">Previous</button>
+                <button type="submit">Next</button>
+            </div>
+
+        </form>
+
+        <footer>
+            Copyright © 2011 all rights reserved
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
